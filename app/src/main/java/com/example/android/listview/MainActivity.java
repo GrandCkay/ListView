@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
+//                String colorName = color.get(i) ;
+
                 Toast.makeText(MainActivity.this, "Number " + i + " * " + color.get(i), Toast.LENGTH_SHORT).show();
             }
         });
